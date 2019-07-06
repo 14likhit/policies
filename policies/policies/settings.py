@@ -114,7 +114,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 STATIC_URL = '/static/'
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.django.CompressedManifestStaticFilesStorage'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
