@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32e8313f-a914-4bd1-9020-c7b61145e40e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/policies/procfile" beforeDir="false" afterPath="$PROJECT_DIR$/policies/procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +55,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/policies/procfile">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -91,6 +91,7 @@
         <option value="$PROJECT_DIR$/policies/policies/settings.py" />
         <option value="$PROJECT_DIR$/procfile" />
         <option value="$PROJECT_DIR$/policies/procfile" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -126,8 +127,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Mywork\policies\policies" />
       <recent name="D:\Mywork\policies" />
+      <recent name="D:\Mywork\policies\policies" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,10 +243,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/policies/procfile">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>
