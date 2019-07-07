@@ -1,5 +1,6 @@
 # Create your views here.
 import json
+import random
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -24,6 +25,8 @@ def PoliciesView(request):
     if ((answer1 is not None) and (answer2 is not None) and (answer3 is not None) and (answer4 is not None) and (
             answer5 is not None)):
         answer = (answer1 + answer2 + answer3 + answer4 + answer5) % 5
+        if answer == 0:
+            answer = random.randint(1, 5)
         data = get_policies(answer)
     else:
         data = {'policies': get_policies(None)}
@@ -40,11 +43,11 @@ def get_policies(rating: int):
                               'A trifle overloads a freedom.',
                'image': 'https://www.licindia.in/CorporateSiteDemo/media/LIC_Media/LIC_LOGO.png'}
     policy2 = {'id': 2,
-               'name': 'ICIC Lombard',
+               'name': 'ICICI Prudential',
                'description': 'The dictionary elaborates in a recovery. The biscuit flashes. '
                               'The agenda migrates after the absolute.'
                               ' An important news bounces across the workable room. An epic kingdom indulges.',
-               'image': 'https://www.icicilombard.com/feo-cdn/R/4/2Ll5vONmo.webp'}
+               'image': 'https://www.iciciprulife.com/content/icici-prudential-life-insurance/_jcr_content/headerpar/header_sightly/navHeader.img.png/1533272453567.png'}
     policy3 = {'id': 3,
                'name': 'Bajaj Allianz',
                'description': 'An expanded bulletin bringings a supreme turnround. '
